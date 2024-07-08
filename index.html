@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Tags Primarios -->
+    <title>César Vargas - Desarrollador Web Frontend</title>
+
+    <meta name="title" content="César Vargas - Desarrollador Web Frontend">
+    <meta name="description" content="César Vargas - Apasionado Desarrollador Web Frontend creando sitios web hermosos y receptivos. Explora mi portafolio y blog para obtener ideas tecnológicas.">
+    <meta name="keywords" content="César Vargas, Desarrollador Web, Desarrollador Frontend, Portafolio, Blog, Ideas Tecnológicas">
+    <meta name="author" content="César Vargas">
+
+    <!-- Meta Tags de Open Graph / Facebook -->
+    <meta property="og:title" content="César Vargas - Desarrollador Web Frontend">
+    <meta property="og:description" content="Apasionado por crear sitios web hermosos y receptivos. Explora mi portafolio y blog para obtener ideas tecnológicas.">
+    <meta property="og:image" content="assets/images/banner.webp">
+    <meta property="og:url" content="/">
+    <meta property="og:type" content="website">
+
+    <!-- Meta Tags de la Tarjeta de Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="César Vargas - Desarrollador Web Frontend">
+    <meta name="twitter:description" content="Apasionado por crear sitios web hermosos y receptivos. Explora mi portafolio y blog para obtener ideas tecnológicas.">
+    <meta name="twitter:image" content="assets/images/banner.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/vj.webp" type="image/x-icon">
+
+    <!-- Google Fonts: Rubik -->
+    <style type="text/css">@font-face {font-family:Rubik;font-style:normal;font-weight:400;src:url(/cf-fonts/s/rubik/5.0.18/arabic/400/normal.woff2);unicode-range:U+0600-06FF,U+0750-077F,U+0870-088E,U+0890-0891,U+0898-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC;font-display:swap;}@font-face {font-family:Rubik;font-style:normal;font-weight:400;src:url(/cf-fonts/s/rubik/5.0.18/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Rubik;font-style:normal;font-weight:400;src:url(/cf-fonts/s/rubik/5.0.18/latin-ext/400/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Rubik;font-style:normal;font-weight:400;src:url(/cf-fonts/s/rubik/5.0.18/hebrew/400/normal.woff2);unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;font-display:swap;}@font-face {font-family:Rubik;font-style:normal;font-weight:400;src:url(/cf-fonts/s/rubik/5.0.18/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Rubik;font-style:normal;font-weight:400;src:url(/cf-fonts/s/rubik/5.0.18/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}</style>
+
+    <!-- Hojas de Estilo -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Precarga de Recursos Importantes -->
+    <link rel="preload" href="assets/css/aos.css" as="style">
+    <link rel="preload" href="assets/css/owl.carousel.min.css" as="style">
+    <link rel="preload" href="assets/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="assets/css/bootstrap-icons.min.css" as="style">
+    <link rel="preload" href="assets/css/style.css" as="style">
+
+    <!-- MS-Clarity Analytics -->
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ld2h640kif");
+    </script>
+
+</head>
+
+<body data-bs-theme="dark" data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <!-- Precargador -->
+    <div id="preloader"></div>
+    
+    <!-- Encabezado -->
+    <header id="header" class="fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-md">
+            <div class="container">
+                <a href="/" class="navbar-brand logo">
+                    <span>&lt;</span>
+                    <span class="logo-name">César Vargas</span>
+                    <span>/&gt;</span>
+                </a>
+                <div class="offcanvas offcanvas-end fixedHeaderNavbar" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarMenu">
+                    <div class="offcanvas-header">
+                        <a href="/" class="offcanvas-title navbar-brand logo aos-init aos-animate" id="offcanvasNavbarMenu" data-aos="fade-down" data-aos-delay="600">
+                            <span>&lt;</span>
+                            <span class="logo-name">César Vargas</span>
+                            <span>/&gt;</span>
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-dismiss="offcanvas" aria-label="Close Navigation Menu"><i class="bi bi-x toggle-icon"></i></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav nav-underline justify-content-end flex-grow-1">
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="500" data-bs-dismiss="offcanvas"><a href="#hero" class="nav-link active" aria-current="page">Inicio</a></li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="600" data-bs-dismiss="offcanvas"><a href="#about" class="nav-link">Acerca de</a></li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="700" data-bs-dismiss="offcanvas"><a href="#skills" class="nav-link">Habilidades</a></li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="800" data-bs-dismiss="offcanvas"><a href="#projects" class="nav-link">Proyectos</a></li>
+                           <!-- <li class="nav-item" data-aos="fade-down" data-aos-delay="900" data-bs-dismiss="offcanvas"><a href="#blogs" class="nav-link">Blogs</a></li> -->
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="1000" data-bs-dismiss="offcanvas"><a href="#contact" class="nav-link">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn border-0" id="switchTheme" data-aos="fade-down" data-aos-delay="600"><i class="bi bi-brightness-high-fill"></i></button>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Abrir menú de navegación" data-aos="fade-down" data-aos-delay="600"><i class="bi bi-list toggle-icon"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="container">     
+            <div class="row about-content">
+                <div class="col-lg-5 order-lg-2">
+                    <div class="hero-portrait">
+                        <div class="pic aos-init aos-animate" data-aos="fade-up" data-aos-delay="600"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7 order-lg-1 hero-content">
+                    <span class="h3" data-aos="fade-up" data-aos-delay="0">Hola! Soy</span>
+                    <h1 class="name" data-aos="fade-up" data-aos-delay="200"><span>César Vargas</span></h1>
+                    <button type="button" class="btn btn-sm mt-3 mb-3 btn-showcase aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"><i class="bi bi-stars"></i> Frontend Developer</button>
+                    <p class="tagline mb-3" data-aos="fade-up" data-aos-delay="600"> Me especializo en el diseño y desarrollo web, creando soluciones visualmente impactantes y funcionales, mi enfoque se centra en fortalecer la identidad <br>de marca y optimizar la experiencia del usuario.</p>
+                    <div class="social-icons pb-2 pt-2 mb-2">
+                        <a href="https://twitter.com/cesarvgss/" target="_blank" class="twitter-x" data-aos="fade-up" data-aos-delay="640"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.instagram.com/cesar.vgs/" target="_blank" class="instagram" data-aos="fade-up" data-aos-delay="660"><i class="bi bi-instagram"></i></a>
+                      <!--  <a href="https://www.youtube.com/@cesarvgs/" target="_blank" class="youtube" data-aos="fade-up" data-aos-delay="680"><i class="bi bi-youtube"></i></a> -->
+                        <a href="https://www.linkedin.com/cesar.vgs/" target="_blank" class="linkedin" data-aos="fade-up" data-aos-delay="690"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/cesarvgs/" target="_blank" class="github" data-aos="fade-up" data-aos-delay="620"><i class="bi bi-github"></i></a>
+                       <!--  <a href="https://discord.gg/ktwSbx99PG" target="_blank" class="discord" data-aos="fade-up" data-aos-delay="700"><i class="bi bi-discord"></i></a>-->
+                    </div>
+                   <!-- <div class="links pt-3" data-aos="fade-up" data-aos-delay="700">
+                        <a href="https://github.com/cesar.vgs/" target="_blank" class="link"><i class="bi bi-link-45deg"></i>GitHub</a>
+                        <a href="https://vijaysingh.hashnode.dev/" target="_blank" class="link"><i class="bi bi-link-45deg"></i>Hashnode</a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+	
+<!-- Cosas que Amo -->
+<section id="things-i-love">
+    <div class="container">
+        <!-- <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">Intereses</span></h6> -->
+        <h2 class="section-heading text-center">Intereses</h2>
+        <div class="row justify-content-center pt-3 gy-4">
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up">
+                <div class="card">
+                    <div class="circle-container">
+                        <div class="circle"><i class="bi bi-droplet-half"></i></div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title">Diseñar</p>
+                        <p class="card-text">Me encanta diseñar. Cuando veo algo que necesita mejorar, disfruto haciéndolo mejor visualmente. Presto atención a cada detalle, ya sea un gráfico o una interfaz de usuario. Mi objetivo es crear diseños que llamen la atención e inspiren a otros.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up">
+                <div class="card">
+                    <div class="circle-container">
+                        <div class="circle"><i class="bi bi-code-slash"></i></div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title">Desarrollar</p>
+                        <p class="card-text">Después de diseñar, me sumerjo en el desarrollo. La codificación es donde doy vida a los diseños, convirtiendo conceptos en experiencias digitales. Cada línea de código refleja mi visión de funcionalidad y elegancia, mostrando mi compromiso con la excelencia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up">
+                <div class="card">
+                    <div class="circle-container">
+                        <div class="circle"><i class="bi bi-cup-hot"></i></div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title">Expandir</p>
+                        <p class="card-text">Más allá de la creación, optimizo. Desde plantillas hasta sitios web completos, refino después del desarrollo. Aprovechando el blogging y el SEO básico, mejoro la visibilidad y el impacto en línea. Cada paso maximiza el alcance y la efectividad en línea.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	
+	
+    <!-- Datos personales
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Acerca de mí</h2>
+            </div>
+            <div class="row about-content">
+                <div class="col-lg-7 col-md-8">
+                    <h3 data-aos="fade-up" data-aos-delay="100">Frontend Developer | UX Designer</h3>
+                    <p class="fst-italic" data-aos="fade-up" data-aos-delay="200">Me encanta transformar ideas en experiencias digitales cautivadoras. Tengo 4 años de experiencia en diseñar y desarrollar sitios web responsivos que combinan funcionalidad y estética.</p>
+                    <ul>
+                        <li data-aos="fade-up" data-aos-delay="300"><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>25 años</span></li>
+                        <li data-aos="fade-up" data-aos-delay="400"><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span>(+52) 5571214833</span></li>
+                        <li data-aos="fade-up" data-aos-delay="500"><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>México, CDMX</span></li>
+                        <li data-aos="fade-up" data-aos-delay="700"><i class="bi bi-chevron-right"></i> <strong>Universidad:</strong> <span>IPN UPIICSA</span></li>
+                        <li data-aos="fade-up" data-aos-delay="700"><i class="bi bi-chevron-right"></i> <strong>Título:</strong> <span>Lic. en Ciencias de la Informática</span></li>
+                        <li data-aos="fade-up" data-aos-delay="800"><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:contact@cesar.vgs.com" class="link">cesarvargaas@hotmail.com</a></span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-md-4 mt-3" data-aos="fade-left" data-aos-delay="300">
+                    <img src="assets/images/about.webp" alt="César Vargas" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section> -->
+	
+
+<!-- Sobre Mí -->
+<section id="about">
+    <div class="container">
+      <!--  <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">¿Pero quién soy yo?</span></h6>-->
+        <h2 class="section-heading text-center">Acerca de mi</h2>
+        <!--  <p class="text-center muted-text mt-3 mb-4">Mi historia en pocas palabras ;)</p> -->
+        <div class="row justify-content-center aos-init" data-aos="fade-down" data-aos-delay="200">
+            <div class="col-lg-5 about-portrait">
+                <img src="assets/images/portrait-2.webp" class="img-fluid pic" alt="Retrato Sobre Mí">
+            </div>
+            <div class="col-lg-7">
+                <p class="bio">
+				Con más de 4 años de experiencia en diseño gráfico y desarrollo web front-end, me dedico a crear soluciones visualmente impactantes y funcionales que refuercen la identidad de marca y optimicen la experiencia del usuario en todos los dispositivos.
+                    <br><br>
+				Mi carrera incluye colaboraciones exitosas en proyectos diversos, desde la creación de sistemas de ticketing responsivos para cines, hasta el diseño y desarrollo del sitio web de un reconocido doctor en el World Trade Center de México. Estos proyectos me han permitido demostrar mi habilidad para manejar HTML, CSS y JavaScript, así como el uso y adaptabilidad en frameworks, para construir interfaces de usuario intuitivas y eficaces. En el ámbito del diseño gráfico, he trabajado en campañas de marketing digital, desarrollando materiales visuales que han incrementado las tasas de apertura y conversión de mis clientes. Utilizo herramientas de diseño avanzadas como Adobe Creative Cloud, Sketch y Figma para crear gráficos vectoriales, maquetar documentos impresos y diseñar prototipos interactivos.
+                   <!--  <br><br>
+                    Y sí, también escribo sobre mis aventuras en la tecnología y los juegos. Si estás interesado, puedes visitar mi blog de juegos, <a href="https://gamesroid.com/" target="_blank">GamesRoid</a>. -->
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+	
+
+    <!-- Habilidades -->
+ <section id="skills">
+        <div class="container">
+         <!--    <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What do I know?</span></h6> -->
+            <h2 class="section-heading text-center">Habilidades</h2>
+            <!--  <p class="text-center muted-text mt-3 mb-4">Here are some of the technologies that are part of my current stack:</p> -->
+            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 skills-container aos-init" data-aos="fade-up" data-aos-delay="200">
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/HTML.svg" alt="HTML">
+                        <p class="skill-name">HTML</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/CSS.svg" alt="CSS">
+                        <p class="skill-name">CSS</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/JS.svg" alt="JavaScript">
+                        <p class="skill-name">JS</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/React.png" alt="React">
+                        <p class="skill-name">ReactJS</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/NodeJS.svg" alt="NodeJS">
+                        <p class="skill-name">NodeJS</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/Angular.png" alt="Angular">
+                        <p class="skill-name">Angular</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/Kotlin.png" alt="Kotlin">
+                        <p class="skill-name">Kotlin</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/Swift.png" alt="Swift">
+                        <p class="skill-name">Swift</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/Wordpress.png" alt="Wordpress">
+                        <p class="skill-name">Wordpress</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/AdobeCC.png" alt="AdobeCC">
+                        <p class="skill-name">AdobeCC</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+    <!-- Herramientas -->
+    <section id="tools">
+        <div class="container">
+           <!--  <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What I uses?</span></h6> -->
+            <h2 class="section-heading text-center">Herramientas</h2>
+         <!--    <p class="text-center muted-text mt-3 mb-4">Tech stack known? Here are tools that I runs:</p> -->
+            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 tools-container aos-init" data-aos="fade-down" data-aos-delay="200">
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/vscode.svg" alt="VSCode">
+                        <p class="tool-name">VSCode</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/github.svg" alt="Github">
+                        <p class="tool-name">Github</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/canva.svg" alt="Canva">
+                        <p class="tool-name">Canva</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/Figma.svg" alt="Figma">
+                        <p class="tool-name">Figma</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/Marvel.png" alt="Marvel">
+                        <p class="tool-name">Marvel</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/Gemini.svg" alt="Gemini">
+                        <p class="tool-name">Gemini</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timelines 
+    <section id="timelines">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What am Doing?</span></h6>
+            <h2 class="section-heading text-center">Timelines</h2>
+            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 skills-container">
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </section> -->
+	
+	
+	<!-- Proyectos -->
+    <section id="projects">
+        <div class="container">
+           <!-- <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What I've done?</span></h6> -->
+            <h2 class="section-heading text-center">Proyectos</h2>
+            <div class="row justify-content-center mt-4 gy-4 aos-init" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/projects/pfpfinder-icon.png" class="img-fluid icon" alt="PfpFinder Logo">
+                                </div>
+                                <div class="col-7 p-0">
+                                    <a href="https://www.drstuarthgonzalez.com/" class="card-title title" target="_blank">Dr. Stuarth WTC</a>
+                                    <p class="stacks m-0">HTML | CSS | JS + Firebase</p>
+                                </div>
+                                <div class="col-3 align-middle">
+                                    <a href="https://pfpfinder.com/" class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container">
+                            <p class="description">Sistema de reservaciones para citas medicas.</p>
+                        </div>
+                        <div class="banner-container">
+                            <div class="overlay">
+                                <a href="https://pfpfinder.com/" class="btn" target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                            <img src="assets/images/projects/pfpfinder-banner.webp" class="card-img-top banner" alt="PfpFinder Banner">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/projects/bikekart-icon.png" class="img-fluid icon" alt="BikeKart Template Logo">
+                                </div>
+                                <div class="col-7 p-0">
+                                    <a href="https://cinemastlahuac.github.io/" class="card-title title" target="_blank">Cinemas Tlahuac</a>
+                                    <p class="stacks m-0">HTML | CSS | JS + Firebase</p>
+                                </div>
+                                <div class="col-3 align-middle">
+                                    <button class="btn btn-sm in-progress cursor-not-allowed">En Mantenimiento</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container">
+                            <p class="description">Sistema para la compra de entradas en cines.</p>
+                        </div>
+                        <div class="banner-container">
+                            <div class="overlay">
+                                <a href="https://itsvijaysingh.github.io/BikeKart/" class="btn" target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                            <img src="assets/images/projects/bikekart-banner.webp" class="card-img-top banner" alt="BikeKart Banner">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card cursor-not-allowed">
+                        <div class="card-body ">
+                            <div class="d-flex align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/projects/simplcalc-icon.png" class="img-fluid icon" alt="SimplCalc Icon">
+                                </div>
+                                <div class="col-7 p-0">
+                                    <span class="card-title title">DeporWeb</span>
+                                    <p class="stacks m-0">Kotlin | Swift + Firebase/p>
+                                </div>
+                                <div class="col-3 align-middle">
+                                    <button class="btn btn-sm in-progress cursor-not-allowed">En Progreso</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container">
+                            <p class="description">El LinkedIn para deportistas.</p>
+                        </div>
+                        <div class="banner-container cursor-not-allowed">
+                            <div class="overlay">
+                                <i class="bi bi-hourglass-split"></i>
+                            </div>
+                            <img src="assets/images/projects/simplcalc-banner.webp" class="card-img-top banner" alt="SimplCalc Banner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+	
+ <!-- Testimonios
+    <section id="testimonials">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What they Think?</span></h6>
+            <h2 class="section-heading text-center">Testimonials</h2>
+            <p class="text-center muted-text mt-3 mb-4">What do my friends and clients say about me.</p>
+            <div class="row mt-4 gy-4 aos-init" data-aos="fade-down" data-aos-delay="200">
+                <div class="col-md-12">
+                    <div id="testimonial-slider" class="owl-carousel owl-loaded owl-drag">                        
+                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1488px, 0px, 0px); transition: all 0.25s ease 0s; width: 3720px;"><div class="owl-item cloned" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Bro, I admire your hard work. Your efforts speak volumes about you. You're amazing! Much love, bro! 🤜🤛
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/Nadeem.webp" alt="Nadeem Pic">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Nadeem</h4>
+                                <small class="role">Friend</small>
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Vijay's commitment and hard work shine through in everything he does.
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/J.svg" alt="Jwala Pratap Pic" class="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Jwala Pratap</h4>
+                                <small class="role">Web Developer</small>
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Working with Vijay has been an incredible experience. His dedication in web development truly shine through his work. He has a remarkable ability to turn ideas into reality &amp; crafting websites that exceed expectations.
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/Rahul.webp" alt="Rahul Pic">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Rahul Sharma</h4>
+                                <small class="role">Software Developer</small>
+                            </div>
+                        </div></div><div class="owl-item" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Your brilliance is truly inspiring. You bring so much positivity and creativity wherever you go. Keep shining brightly! Working with you has been always an incredible experience.
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/Moinudeen.webp" alt="Moinudeen Pic">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Moinudeen</h4>
+                                <small class="role">Programmer</small>
+                            </div>
+                        </div></div><div class="owl-item active" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Bro, I admire your hard work. Your efforts speak volumes about you. You're amazing! Much love, bro! 🤜🤛
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/Nadeem.webp" alt="Nadeem Pic">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Nadeem</h4>
+                                <small class="role">Friend</small>
+                            </div>
+                        </div></div><div class="owl-item active" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Vijay's commitment and hard work shine through in everything he does.
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/J.svg" alt="Jwala Pratap Pic" class="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Jwala Pratap</h4>
+                                <small class="role">Web Developer</small>
+                            </div>
+                        </div></div><div class="owl-item active" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Working with Vijay has been an incredible experience. His dedication in web development truly shine through his work. He has a remarkable ability to turn ideas into reality &amp; crafting websites that exceed expectations.
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/Rahul.webp" alt="Rahul Pic">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Rahul Sharma</h4>
+                                <small class="role">Software Developer</small>
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Your brilliance is truly inspiring. You bring so much positivity and creativity wherever you go. Keep shining brightly! Working with you has been always an incredible experience.
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/Moinudeen.webp" alt="Moinudeen Pic">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Moinudeen</h4>
+                                <small class="role">Programmer</small>
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Bro, I admire your hard work. Your efforts speak volumes about you. You're amazing! Much love, bro! 🤜🤛
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/Nadeem.webp" alt="Nadeem Pic">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Nadeem</h4>
+                                <small class="role">Friend</small>
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 372px;"><div class="testimonial">
+                            <p class="description">
+                                Vijay's commitment and hard work shine through in everything he does.
+                            </p>
+                            <div class="pic">
+                                <img src="assets/images/testimonials/J.svg" alt="Jwala Pratap Pic" class="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Jwala Pratap</h4>
+                                <small class="role">Web Developer</small>
+                            </div>
+                        </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+	
+	
+    <!-- Blogs 
+    <section id="blogs">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">Do I Write?</span></h6>
+            <h2 class="section-heading text-center">My Blogs</h2>
+            <p class="text-center muted-text mt-3 mb-4">From tech tips to gaming guides, here are some written pieces that you can check out if you're interested.</p>
+            <div class="row justify-content-center gy-4 aos-init" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card article-card">
+                        <div class="banner-container position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <span class="badge">Gaming</span>
+                            </div>
+                            <img src="https://gamesroid.com/wp-content/uploads/2023/10/How-to-Update-Township.webp" class="card-img-top banner" alt="How to Update Township Game">
+                        </div>                        
+                        <div class="card-body">
+                            <a href="https://gamesroid.com/how-to-update-township-game/"></a><h6 class="card-title">How to Update Township Game – Guide for Every Platform!</h6>
+                            <p class="card-text description">Keep your Township updated and experience all the latest features.</p>
+                            <a href="https://gamesroid.com/how-to-update-township-game/" class="text-decoration-none" target="_blank"><span class="read-more">Read More <i class="bi bi-arrow-up-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card article-card">
+                        <div class="banner-container position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <span class="badge">Gaming</span>
+                            </div>
+                            <img src="https://gamesroid.com/wp-content/uploads/2023/09/Popular-Mobile-Games.webp" class="card-img-top banner" alt="Most Popular Mobile Games in India">
+                        </div>                        
+                        <div class="card-body">
+                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/"></a><h6 class="card-title">Most Popular Mobile Games in India- Android &amp; iOS </h6>
+                            <p class="card-text description">Find out the top trendiest and most popular mobile games in India!</p>
+                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/" class="text-decoration-none" target="_blank"><span class="read-more">Read More <i class="bi bi-arrow-up-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card article-card">
+                        <div class="banner-container position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <span class="badge">Gaming</span>
+                            </div>
+                            <img src="https://gamesroid.com/wp-content/uploads/2024/01/Discord-Banners.webp" class="card-img-top banner" alt="Best Discord Banners and GIFs">
+                        </div>                        
+                        <div class="card-body">
+                            <a href="https://gamesroid.com/best-discord-banners/"></a><h6 class="card-title">100+ Best Discord Banners and GIFs</h6>
+                            <p class="card-text description">From anime, to aesthetics, cuteness to coolness, static to animated there's a for you.</p>
+                            <a href="https://gamesroid.com/best-discord-banners/" class="text-decoration-none" target="_blank"><span class="read-more">Read More <i class="bi bi-arrow-up-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!-- Contacto -->
+    <section id="contact">
+        <div class="container">
+        <!--     <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What's next!</span></h6> -->
+            <h2 class="section-heading text-center">Contacto</h2>
+           <!-- <p class="text-center muted-text mt-3 mb-4">Interested in working together? We should schedule a time to chat. I'll bring the coffee.</p> -->
+            <div class="row justify-content-center aos-init" data-aos="fade-down" data-aos-delay="500">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form action="#" method="POST">
+                            <div class="row g-2">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre *" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email *" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto *" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea style="resize: none;" class="form-control" id="message" name="message" rows="5" placeholder="Mensaje *" required=""></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn primary-bg-btn mt-2">Send Message <i class="bi bi-arrow-up-right"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	
+	
+    <!-- Pie de página -->
+    <footer id="footer">
+        <div class="container">
+            <p class="text-center copyright-text">2024 Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <button class="btn" id="backToTopButton" onclick="scrollToTop()" style="display: block;">
+        <span aria-label="Back to top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"></path>
+              </svg>
+        </span>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="assets/js/aos.js" defer=""></script>
+    <script src="assets/js/jquery-3.7.1.min.js" defer=""></script>
+    <script src="assets/js/owl.carousel.min.js" defer=""></script>
+    <script src="assets/js/bootstrap.min.js" defer=""></script>
+    <script src="assets/js/script.js" defer=""></script>
+
+</body>
+</html>
